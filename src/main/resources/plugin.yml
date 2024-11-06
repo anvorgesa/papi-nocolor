@@ -1,0 +1,6 @@
+name: Nocolor
+main: me.tini.nocolor.NocolorPlugin
+author: Tini
+version: ${project.version}
+depend: [ PlaceholderAPI ]
+api-version: 1.13
