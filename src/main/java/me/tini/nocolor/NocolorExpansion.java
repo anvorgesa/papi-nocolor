@@ -37,6 +37,8 @@ public class NocolorExpansion extends PlaceholderExpansion {
 
     @Override
     public String onRequest(OfflinePlayer p, String placeholder) {
+        placeholder = "%" + placeholder + "%";
+
         String res;
         if (p instanceof Player) {
             res = PlaceholderAPI.setPlaceholders((Player) p, placeholder);
